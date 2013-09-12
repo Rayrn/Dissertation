@@ -1,0 +1,148 @@
+.container{
+	width:632px;
+	margin:10px auto;
+}
+.floatL{
+	padding-top:60px;
+	width:150px;
+	float:left;
+}
+.floatL a{
+	margin-top:10px;
+	display: block;
+}
+.floatR{
+	width:482px;
+	float:left;
+}
+.alert{
+	color:#F00;
+	border:1px solid #000;
+	padding:10px;
+	font-weight:bold;
+	width:300px;
+	margin:10px auto;
+}
+body {
+	margin:0 auto;
+	width:800px;
+	padding:0;
+	background: #FFF;
+	font: 12px Verdana, Geneva, sans-serif;
+}
+.hide,.dontshow{display:none}
+.show{display:block}
+.clear{clear:both}
+A{
+	color:#00F;
+	text-decoration:none;
+}
+A:hover{
+	text-decoration:underline;
+	color:#0CF;
+}
+form{
+	width:440px;
+	padding:20px;
+	border:1px solid #ccc;
+}
+select{
+	width:250px;
+}
+input,
+textarea,
+select,
+form,
+label,
+.col1,
+.col2{
+	float:left;
+	margin:5px 10px 3px 0;
+}
+.col2 {
+	width:145px;
+}
+.col2 label{
+	width:110px;
+	line-height: 18px;
+	margin-right: 0;
+}
+.col2 .radio{
+	width: 12px;
+	margin-top: 9px;
+}
+input,
+textarea{
+	width: 240px;
+	padding: 2px 5px;
+	font: 12px Verdana, Geneva, sans-serif;
+}
+._232{
+	padding-top:10px;
+}
+._232 label{
+	width: 230px;
+}
+input.radio{
+	width: 12px;
+	margin-right: 0;
+}
+textarea{
+	height:60px;
+	
+}
+label{
+	float:left;
+	width:250px;
+	cursor:pointer;
+	font-weight:bold;
+}
+span{
+	width:100%;
+	float:left;
+}
+#proceed{
+	width: auto;
+	padding:0 10px;
+	line-height:23px;
+	border: 1px solid #CC0000;
+	color: #fff;
+	font-weight: bold;
+	clear: both;
+	background: #FF9900;
+	cursor:text;
+	/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=20);
+  /* Netscape */
+  -moz-opacity: 0.2;
+  /* Safari 1.x */
+  -khtml-opacity: 0.2;
+  /* Good browsers */
+  opacity: 0.2;
+}
+#proceed.active{
+	cursor:pointer;
+	/* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* IE 5-7 */
+  filter: alpha(opacity=100);
+  /* Netscape */
+  -moz-opacity: 1;
+  /* Safari 1.x */
+  -khtml-opacity: 1;
+  /* Good browsers */
+  opacity: 1;
+}
+table{
+	border:1px solid #ccc;0
+}
+th,td{
+	vertical-align:top;
+	padding:3px 10px 3px 3px;
+	text-align:left;
+}
+td{
+	border-top:1px solid #ddd;
+}
