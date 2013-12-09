@@ -112,6 +112,6 @@ function DB_CONNECTION ($HOST, $NAME, $USER, $PASS)
 // Dissertation DB details, seperated to allow for multiple databases to be stored.
 function DTDB_Details()
 {
-	return DB_CONNECTION('80.68.40.219', 'boeme_DB', 'boeme_db', 'bx12345');
+	return DB_CONNECTION('');
 }
 ?>
